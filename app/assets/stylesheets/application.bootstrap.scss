@@ -1,0 +1,66 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';
+
+main {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100vh;
+  max-height: 100vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+tr {
+  color: #c7c7cc !important;
+  border-color: #1c1d1e !important;
+}
+tr > td {
+  font-weight: 300;
+}
+
+form .form-group > label,
+form .list-group-item,
+form .form-control:focus {
+  color: #c7c7cc
+}
+
+form .form-group > input:focus {
+  border-color: #c7c7cc;
+}
+
+form .form-group > input,
+form .form-group > textarea,
+form .form-group > select,
+form .list-group-item {
+  color: #636366;
+  border: 1px solid #636366;
+}
+
+.dark-gray-6 {
+  background-color: #1c1c1e !important;
+}
+.dark-gray-5 {
+  background-color: #2c2c2e !important;
+}
+.dark-gray-4 {
+  background-color: #3a3a3c !important;
+}
+.dark-gray-3 {
+  background-color: #48484a !important;
+}
+.dark-gray-2 {
+  background-color: #636366 !important;
+}
+
+.light-gray-6 {
+  background-color: #f2f2f7 !important;
+}
+.light-gray-5 {
+  background-color: #e5e5ea !important;
+}
+.light-gray-4 {
+  background-color: #d1d1d6 !important;
+}
+.light-gray-3 {
+  background-color: #c7c7cc !important;
+}

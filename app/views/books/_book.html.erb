@@ -1,0 +1,10 @@
+<div id="<%= dom_id book %>">
+  <tr>
+    <td><%= tratar_valor(book.name) %></td>
+    <td><%= tratar_valor(formatar_data(book.release_date)) %></td>
+    <td><%= tratar_valor(book.writer) %></td>
+    <td><%= tratar_valor(book.publishing_company) %></td>
+    <td><%= tratar_valor(book.price) %></td>
+    <td><%= link_to "show", book %></td>
+  </tr>
+</div>
